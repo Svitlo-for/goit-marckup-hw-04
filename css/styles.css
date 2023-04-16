@@ -317,7 +317,7 @@ img {
 }
 .logo-icon:hover,
 .logo-icon:focus {
-    fill: var(--pressed-state-color);
+    color: var(--pressed-state-color);
 }
 
 /* footer */
@@ -329,6 +329,8 @@ img {
 .footer-block-container {
     display: flex;
     align-items: baseline;
+}
+.footer-container {
     margin-right: 120px;
 }
 
@@ -349,7 +351,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-txt-color); 
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .social-media {
     display: flex;
