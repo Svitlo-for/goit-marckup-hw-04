@@ -311,6 +311,7 @@ img {
 .logo-link:hover,
 .logo-link:focus {
     border-color: var(--pressed-state-color);
+    color: var(--pressed-state-color);
 }
 .logo-icon {
     fill: currentColor;
@@ -329,8 +330,6 @@ img {
 .footer-block-container {
     display: flex;
     align-items: baseline;
-}
-.footer-container {
     margin-right: 120px;
 }
 
