@@ -326,11 +326,13 @@ img {
     background-color: var(--main-txt-color);
     padding: 100px 0;
 }
+.footer-container {
+    margin-right: 120px;
+}
 
 .footer-block-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .footer-text {
